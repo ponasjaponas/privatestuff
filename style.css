@@ -1,0 +1,522 @@
+body {
+    background-color: rgb(46, 46, 46);
+}
+
+body {
+    background-color: rgb(46, 46, 46);
+}
+
+body {
+    background-color: rgb(46, 46, 46);
+}
+
+body {
+    background-color: rgb(46, 46, 46);
+}
+
+.file-item {
+    width: 150px;
+    height: 130px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: small;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#Menu1Content li {
+    margin-bottom: 20px;
+}
+
+#Menu2Content li {
+    margin-bottom: 15px;
+}
+
+pre {
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+
+#Logs {
+    margin-left: 10px;
+    font-size: small;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.ui-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.ui-panel-body {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+}
+
+.uk-input {
+    min-width: 60px;
+}
+
+#ScriptHeaderResources {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+#ScriptHeaderProgress {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.table-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.table-cell {
+    min-height: 25px;
+    flex-grow: 1;
+    flex-basis: 100%;
+    background-color: rgb(46, 46, 46);
+}
+
+.ui-internal.tr {
+    color: rgb(255, 255, 255) !important;
+}
+
+#ResourcesTabsHeader {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+#TabResources {
+    margin-left: 3px;
+}
+
+#ResourcesTabsContent {
+    margin-top: 0px;
+}
+
+#GlobalTabsHeader {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#ResourcesTabsContent {
+    padding-top: 0px;
+}
+
+[uk-alert] {
+    font-size: small;
+    background-color: rgb(46, 46, 46);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+
+.resource-label {
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.cell {
+    min-height: 25px;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.tab-not-valid {
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: 2px;
+}
+
+.uk-tab-left>*,
+.uk-tab-right>* {
+    margin-bottom: 5px;
+}
+
+.tab-not-visible {
+    display: none;
+}
+
+.resource-not-visible {
+    display: none;
+}
+
+#iml9f {
+    justify-content: flex-start;
+    width: 100%;
+    line-height: 30px;
+}
+
+#ip76k {
+    font-weight: bold;
+}
+
+#i0edk {
+    min-width: 40px;
+}
+
+#Menu1Button {
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+}
+
+#i6ek8 {
+    display: flex;
+    height: auto;
+    max-width: 100%;
+}
+
+#ibkfr {
+    justify-content: flex-start;
+}
+
+#iepj4 {
+    min-width: 40px;
+    padding-top: 0px;
+    padding-right: 14px;
+    padding-bottom: 0px;
+    padding-left: 14px;
+}
+
+#ijd8k {
+    display: flex;
+}
+
+#ir4mg {
+    justify-content: flex-start;
+}
+
+#i3sjk {
+    min-width: 40px;
+    padding-top: 0px;
+    padding-right: 14px;
+    padding-bottom: 0px;
+    padding-left: 14px;
+}
+
+#iu2f1 {
+    display: flex;
+}
+
+#inyxi {
+    justify-content: flex-start;
+}
+
+#ia9yo {
+    min-width: 40px;
+    padding-top: 0px;
+    padding-right: 14px;
+    padding-bottom: 0px;
+    padding-left: 14px;
+}
+
+#ir2jv {
+    display: flex;
+}
+
+#iav6i {
+    justify-content: flex-start;
+}
+
+#ijho3 {
+    min-width: 40px;
+    padding-top: 0px;
+    padding-right: 14px;
+    padding-bottom: 0px;
+    padding-left: 14px;
+}
+
+#igvb6 {
+    display: flex;
+}
+
+#ifrkj {
+    justify-content: flex-start;
+}
+
+#iogit {
+    min-width: 40px;
+    padding-top: 0px;
+    padding-right: 14px;
+    padding-bottom: 0px;
+    padding-left: 14px;
+}
+
+#iqf9a {
+    display: flex;
+}
+
+#idfve {
+    justify-content: flex-start;
+}
+
+#imftv {
+    min-width: 40px;
+    padding-top: 0px;
+    padding-right: 14px;
+    padding-bottom: 0px;
+    padding-left: 14px;
+}
+
+#i82p9 {
+    display: flex;
+}
+
+#ix9n7 {
+    justify-content: flex-start;
+}
+
+#ixubn {
+    min-width: 40px;
+    padding-top: 0px;
+    padding-right: 14px;
+    padding-bottom: 0px;
+    padding-left: 14px;
+}
+
+#imbdnz {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
+
+#iqmcdh {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#i8g9jx {
+    justify-content: flex-start;
+    width: 100%;
+    line-height: 30px;
+}
+
+#isdt2h {
+    font-weight: bold;
+}
+
+#itqkhi {
+    min-width: 40px;
+}
+
+#Menu2Button {
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+}
+
+#i95wei {
+    font-size: small;
+}
+
+#i451fk {
+    padding-top: 15px;
+}
+
+#ia7kxw {
+    margin-bottom: 10px;
+}
+
+#StopScript {
+    margin-right: 10px;
+}
+
+#iirp27 {
+    font-size: small;
+}
+
+#iwbm56 {
+    padding-top: 15px;
+}
+
+#io8doh {
+    margin-bottom: 10px;
+}
+
+#CardBrowsers {
+    font-size: small;
+}
+
+#idn2b8 {
+    padding-top: 15px;
+}
+
+#in1idf {
+    margin-bottom: 10px;
+}
+
+#InspectBrowsers {
+    margin-right: 10px;
+}
+
+#CardProgress {
+    font-size: small;
+}
+
+#i4gexe {
+    padding-top: 15px;
+}
+
+#isxfr6 {
+    margin-bottom: 10px;
+}
+
+#ShowScriptReport {
+    margin-right: 10px;
+}
+
+#ir88w1 {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    position: relative;
+    height: 200px;
+    max-width: 500px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+#i7k8mx {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#iy9x1 {
+    max-width: 100%;
+}
+
+#i95wei {
+    background-color: rgb(46, 46, 46) !important;
+    color: rgb(255, 255, 255);
+}
+
+#idn2b8 {
+    background-color: rgb(46, 46, 46) !important;
+    color: rgb(255, 255, 255);
+}
+
+#i4gexe {
+    background-color: rgb(46, 46, 46) !important;
+    color: rgb(255, 255, 255);
+}
+
+#ir88w1 {
+    background-color: rgb(46, 46, 46) !important;
+    color: rgb(255, 255, 255);
+}
+
+.uk-card-footer {
+    background-color: rgb(46, 46, 46) !important;
+    color: rgb(255, 255, 255);
+}
+
+.uk-card-default {
+    background-color: rgb(46, 46, 46) !important;
+    color: rgb(255, 255, 255);
+    border-top-color: currentcolor;
+    border-top-style: none;
+    border-top-width: 0px;
+}
+
+.uk-button-default:hover {
+    color: rgb(255, 255, 255);
+}
+
+.tr {
+    color: rgb(255, 255, 255);
+}
+
+#ExpandLog {
+    color: rgb(255, 255, 255);
+}
+
+#HideLog {
+    color: rgb(255, 255, 255);
+}
+
+.uk-card-default .uk-card-footer {
+    border-top-color: currentcolor !important;
+    border-top-style: none !important;
+    border-top-width: 0px !important;
+}
+
+.uk-button-default {
+    color: rgb(255, 255, 255);
+}
+
+#BrowserListModal h3 {
+    color: rgb(255, 255, 255);
+}
+
+#wrapper {
+    background-color: rgb(46, 46, 46);
+}
+
+#i6hv1s {
+    background-color: rgb(46, 46, 46);
+}
+
+.uk-modal-body, .uk-modal-footer, .uk-modal-dialog, .uk-modal-close-full {
+    background-color: #2e2e2e;
+    color: #FFF;
+}
+
+.uk-modal-footer{
+    border-top: 0px;
+}
